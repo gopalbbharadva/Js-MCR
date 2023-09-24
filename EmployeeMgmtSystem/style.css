@@ -1,0 +1,50 @@
+.employee {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.employee-list {
+  border: 1px solid rebeccapurple;
+  height: 80vh;
+  width: 10rem;
+}
+
+.employee-info {
+  border: 1px solid red;
+  width: 100%;
+  height: 80vh;
+}
+.employee-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.employee-list-container {
+  margin-top: 1rem;
+}
+
+.employee-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.remove-icon {
+  color: red;
+  cursor: pointer;
+}
+
+.image-avatar {
+  height: 10rem;
+  width: 10rem;
+}
+
+.selected-employee {
+  background-color: antiquewhite;
+}
